@@ -1,0 +1,7 @@
+# Core Data Processing Library
+pandas>=1.3.0
+
+# Jupyter Notebook Environment
+jupyter>=1.0.0
+
+# Note: json, logging, and datetime are built-in Python modules
