@@ -1,0 +1,768 @@
+[
+    {
+        "highestSeverity": "SUCCESS",
+        "notifications": [
+            {
+                "severity": "SUCCESS",
+                "source": "trck",
+                "code": "0",
+                "message": "Request was successfully processed.",
+                "localizedMessage": "Request was successfully processed.",
+                "messageParameters": []
+            }
+        ],
+        "duplicateWaybill": false,
+        "moreData": false,
+        "trackDetailsCount": 0,
+        "trackDetails": [
+            {
+                "notification": {
+                    "severity": "SUCCESS",
+                    "source": "trck",
+                    "code": "0",
+                    "message": "Request was successfully processed.",
+                    "localizedMessage": "Request was successfully processed.",
+                    "messageParameters": []
+                },
+                "trackingNumber": "391128701026",
+                "trackingNumberUniqueIdentifier": "2458925000~391128701026~FX",
+                "statusDetail": {
+                    "creationTime": {
+                        "$numberLong": "1584662400000"
+                    },
+                    "code": "DL",
+                    "description": "Delivered",
+                    "location": {
+                        "streetLines": [],
+                        "city": "Gurgaon",
+                        "stateOrProvinceCode": "HR",
+                        "countryCode": "IN",
+                        "countryName": "India",
+                        "residential": false
+                    },
+                    "ancillaryDetails": [
+                        {
+                            "reason": "11",
+                            "reasonDescription": "C.O.D. payment received"
+                        }
+                    ]
+                },
+                "informationNotes": [],
+                "customerExceptionRequests": [],
+                "carrierCode": "FDXE",
+                "operatingCompanyOrCarrierDescription": "FedEx Express",
+                "otherIdentifiers": [],
+                "service": {
+                    "type": "FEDEX_EXPRESS_SAVER",
+                    "description": "FedEx Economy",
+                    "shortDescription": "XS"
+                },
+                "packageWeight": {
+                    "units": "KG",
+                    "value": 14
+                },
+                "shipmentWeight": {
+                    "units": "KG",
+                    "value": 14
+                },
+                "packaging": {
+                    "type": "YOUR_PACKAGING",
+                    "description": "Your Packaging"
+                },
+                "packageSequenceNumber": 1,
+                "packageCount": 1,
+                "shipmentContentPieceCount": 0,
+                "packageContentPieceCount": 0,
+                "creatorSoftwareId": "WSXI",
+                "charges": [],
+                "attributes": [],
+                "shipmentContents": [],
+                "packageContents": [],
+                "commodities": [],
+                "customsOptionDetails": [],
+                "specialHandlings": [
+                    {
+                        "type": "DELIVER_WEEKDAY",
+                        "description": "Deliver Weekday",
+                        "paymentType": "OTHER"
+                    },
+                    {
+                        "type": "COD",
+                        "description": "Collect On Delivery (COD)",
+                        "paymentType": "OTHER"
+                    },
+                    {
+                        "type": "RESIDENTIAL_DELIVERY",
+                        "description": "Residential Delivery",
+                        "paymentType": "OTHER"
+                    }
+                ],
+                "payments": [
+                    {
+                        "classification": "TRANSPORTATION",
+                        "type": "SHIPPER_ACCOUNT",
+                        "description": "Shipper"
+                    },
+                    {
+                        "classification": "DUTIES_AND_TAXES",
+                        "type": "SHIPPER_ACCOUNT",
+                        "description": "Shipper"
+                    }
+                ],
+                "shipperAddress": {
+                    "streetLines": [],
+                    "city": "Bangalore",
+                    "stateOrProvinceCode": "KA",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "datesOrTimes": [
+                    {
+                        "type": "ACTUAL_DELIVERY",
+                        "dateOrTimestamp": "2020-03-20T13:37:00+05:30"
+                    },
+                    {
+                        "type": "ACTUAL_PICKUP",
+                        "dateOrTimestamp": "2020-03-16T15:44:00+05:30"
+                    },
+                    {
+                        "type": "SHIP",
+                        "dateOrTimestamp": "2020-03-16T00:00:00"
+                    },
+                    {
+                        "type": "ACTUAL_TENDER",
+                        "dateOrTimestamp": "2020-03-16T15:44:00+05:30"
+                    }
+                ],
+                "specialInstructions": [],
+                "lastUpdatedDestinationAddress": {
+                    "streetLines": [],
+                    "city": "GURGAON",
+                    "stateOrProvinceCode": "HR",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "destinationAddress": {
+                    "streetLines": [],
+                    "city": "Gurgaon",
+                    "stateOrProvinceCode": "HR",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "actualDeliveryAddress": {
+                    "streetLines": [],
+                    "city": "Gurgaon",
+                    "stateOrProvinceCode": "HR",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "deliveryLocationType": "RESIDENCE",
+                "deliveryLocationDescription": "Residence",
+                "deliveryAttempts": 0,
+                "deliverySignatureName": "S.RAI",
+                "pieceCountVerificationDetails": [],
+                "totalUniqueAddressCountInConsolidation": 0,
+                "availableImages": [
+                    {
+                        "type": "SIGNATURE_PROOF_OF_DELIVERY"
+                    }
+                ],
+                "notificationEventsAvailable": [
+                    "ON_DELIVERY"
+                ],
+                "splitShipmentParts": [],
+                "deliveryOptionEligibilityDetails": [
+                    {
+                        "option": "INDIRECT_SIGNATURE_RELEASE",
+                        "eligibility": "INELIGIBLE"
+                    },
+                    {
+                        "option": "REDIRECT_TO_HOLD_AT_LOCATION",
+                        "eligibility": "INELIGIBLE"
+                    },
+                    {
+                        "option": "REROUTE",
+                        "eligibility": "INELIGIBLE"
+                    },
+                    {
+                        "option": "RESCHEDULE",
+                        "eligibility": "INELIGIBLE"
+                    }
+                ],
+                "events": [
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584691620000"
+                        },
+                        "eventType": "DL",
+                        "eventDescription": "Delivered",
+                        "statusExceptionCode": "11",
+                        "statusExceptionDescription": "C.O.D. payment received",
+                        "address": {
+                            "streetLines": [],
+                            "city": "Gurgaon",
+                            "stateOrProvinceCode": "HR",
+                            "postalCode": "122001",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "DELIVERY_LOCATION"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584679560000"
+                        },
+                        "eventType": "OD",
+                        "eventDescription": "On FedEx vehicle for delivery",
+                        "address": {
+                            "streetLines": [],
+                            "city": "MANESAR",
+                            "stateOrProvinceCode": "HR",
+                            "postalCode": "122050",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "VEHICLE"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584676080000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "GURGAON",
+                            "stateOrProvinceCode": "HR",
+                            "postalCode": "122001",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584674160000"
+                        },
+                        "eventType": "AR",
+                        "eventDescription": "At local FedEx facility",
+                        "address": {
+                            "streetLines": [],
+                            "city": "MANESAR",
+                            "stateOrProvinceCode": "HR",
+                            "postalCode": "122050",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "DESTINATION_FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584646440000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "GURGAON",
+                            "stateOrProvinceCode": "HR",
+                            "postalCode": "122001",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584639900000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "GURGAON",
+                            "stateOrProvinceCode": "HR",
+                            "postalCode": "122001",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584399780000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "562123",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584383760000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "562123",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584379440000"
+                        },
+                        "eventType": "DP",
+                        "eventDescription": "Left FedEx origin facility",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560048",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "ORIGIN_FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584353640000"
+                        },
+                        "eventType": "PU",
+                        "eventDescription": "Picked up",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560048",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "PICKUP_LOCATION"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1584348235000"
+                        },
+                        "eventType": "OC",
+                        "eventDescription": "Shipment information sent to FedEx",
+                        "address": {
+                            "streetLines": [],
+                            "residential": false
+                        },
+                        "arrivalLocation": "CUSTOMER"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "highestSeverity": "SUCCESS",
+        "notifications": [
+            {
+                "severity": "SUCCESS",
+                "source": "trck",
+                "code": "0",
+                "message": "Request was successfully processed.",
+                "localizedMessage": "Request was successfully processed.",
+                "messageParameters": []
+            }
+        ],
+        "duplicateWaybill": false,
+        "moreData": false,
+        "trackDetailsCount": 0,
+        "trackDetails": [
+            {
+                "notification": {
+                    "severity": "SUCCESS",
+                    "source": "trck",
+                    "code": "0",
+                    "message": "Request was successfully processed.",
+                    "localizedMessage": "Request was successfully processed.",
+                    "messageParameters": []
+                },
+                "trackingNumber": "390901883808",
+                "trackingNumberUniqueIdentifier": "2458915000~390901883808~FX",
+                "statusDetail": {
+                    "creationTime": {
+                        "$numberLong": "1583712000000"
+                    },
+                    "code": "DL",
+                    "description": "Delivered",
+                    "location": {
+                        "streetLines": [],
+                        "city": "Bangalore",
+                        "stateOrProvinceCode": "KA",
+                        "countryCode": "IN",
+                        "countryName": "India",
+                        "residential": false
+                    },
+                    "ancillaryDetails": []
+                },
+                "informationNotes": [],
+                "customerExceptionRequests": [],
+                "carrierCode": "FDXE",
+                "operatingCompanyOrCarrierDescription": "FedEx Express",
+                "otherIdentifiers": [],
+                "service": {
+                    "type": "FEDEX_EXPRESS_SAVER",
+                    "description": "FedEx Economy",
+                    "shortDescription": "XS"
+                },
+                "packageWeight": {
+                    "units": "KG",
+                    "value": 14
+                },
+                "shipmentWeight": {
+                    "units": "KG",
+                    "value": 14
+                },
+                "packaging": {
+                    "type": "YOUR_PACKAGING",
+                    "description": "Your Packaging"
+                },
+                "packageSequenceNumber": 1,
+                "packageCount": 1,
+                "shipmentContentPieceCount": 0,
+                "packageContentPieceCount": 0,
+                "creatorSoftwareId": "WSXI",
+                "charges": [],
+                "attributes": [],
+                "shipmentContents": [],
+                "packageContents": [],
+                "commodities": [],
+                "customsOptionDetails": [],
+                "specialHandlings": [
+                    {
+                        "type": "DELIVER_WEEKDAY",
+                        "description": "Deliver Weekday",
+                        "paymentType": "OTHER"
+                    }
+                ],
+                "payments": [
+                    {
+                        "classification": "TRANSPORTATION",
+                        "type": "SHIPPER_ACCOUNT",
+                        "description": "Shipper"
+                    },
+                    {
+                        "classification": "DUTIES_AND_TAXES",
+                        "type": "SHIPPER_ACCOUNT",
+                        "description": "Shipper"
+                    }
+                ],
+                "shipperAddress": {
+                    "streetLines": [],
+                    "city": "Bangalore",
+                    "stateOrProvinceCode": "KA",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "datesOrTimes": [
+                    {
+                        "type": "ACTUAL_DELIVERY",
+                        "dateOrTimestamp": "2020-03-09T19:50:00+05:30"
+                    },
+                    {
+                        "type": "ACTUAL_PICKUP",
+                        "dateOrTimestamp": "2020-03-06T16:07:00+05:30"
+                    },
+                    {
+                        "type": "SHIP",
+                        "dateOrTimestamp": "2020-03-06T00:00:00"
+                    },
+                    {
+                        "type": "ACTUAL_TENDER",
+                        "dateOrTimestamp": "2020-03-06T16:07:00+05:30"
+                    }
+                ],
+                "specialInstructions": [],
+                "lastUpdatedDestinationAddress": {
+                    "streetLines": [],
+                    "city": "BANGALORE",
+                    "stateOrProvinceCode": "KA",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "destinationAddress": {
+                    "streetLines": [],
+                    "city": "Bangalore",
+                    "stateOrProvinceCode": "KA",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "actualDeliveryAddress": {
+                    "streetLines": [],
+                    "city": "Bangalore",
+                    "stateOrProvinceCode": "KA",
+                    "countryCode": "IN",
+                    "countryName": "India",
+                    "residential": false
+                },
+                "deliveryLocationType": "RECEPTIONIST_OR_FRONT_DESK",
+                "deliveryLocationDescription": "Receptionist/Front Desk",
+                "deliveryAttempts": 0,
+                "deliverySignatureName": "S.IGN",
+                "pieceCountVerificationDetails": [],
+                "totalUniqueAddressCountInConsolidation": 0,
+                "availableImages": [],
+                "notificationEventsAvailable": [
+                    "ON_DELIVERY"
+                ],
+                "splitShipmentParts": [],
+                "deliveryOptionEligibilityDetails": [
+                    {
+                        "option": "INDIRECT_SIGNATURE_RELEASE",
+                        "eligibility": "INELIGIBLE"
+                    },
+                    {
+                        "option": "REDIRECT_TO_HOLD_AT_LOCATION",
+                        "eligibility": "INELIGIBLE"
+                    },
+                    {
+                        "option": "REROUTE",
+                        "eligibility": "INELIGIBLE"
+                    },
+                    {
+                        "option": "RESCHEDULE",
+                        "eligibility": "INELIGIBLE"
+                    }
+                ],
+                "events": [
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583763600000"
+                        },
+                        "eventType": "DL",
+                        "eventDescription": "Delivered",
+                        "address": {
+                            "streetLines": [],
+                            "city": "Bangalore",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560034",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "DELIVERY_LOCATION"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583731200000"
+                        },
+                        "eventType": "OD",
+                        "eventDescription": "On FedEx vehicle for delivery",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560100",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "VEHICLE"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583731140000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "statusExceptionCode": "67",
+                        "statusExceptionDescription": "Tendered to authorized agent for final delivery",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560100",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583729700000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "statusExceptionCode": "67",
+                        "statusExceptionDescription": "Tendered to authorized agent for final delivery",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560100",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583729700000"
+                        },
+                        "eventType": "OD",
+                        "eventDescription": "On FedEx vehicle for delivery",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560100",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "VEHICLE"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583721480000"
+                        },
+                        "eventType": "AR",
+                        "eventDescription": "At local FedEx facility",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560100",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "DESTINATION_FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583624760000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "562123",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583525400000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "562123",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583525400000"
+                        },
+                        "eventType": "IT",
+                        "eventDescription": "In transit",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "562123",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583514660000"
+                        },
+                        "eventType": "DP",
+                        "eventDescription": "Left FedEx origin facility",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560048",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "ORIGIN_FEDEX_FACILITY"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583491020000"
+                        },
+                        "eventType": "PU",
+                        "eventDescription": "Picked up",
+                        "address": {
+                            "streetLines": [],
+                            "city": "BANGALORE",
+                            "stateOrProvinceCode": "KA",
+                            "postalCode": "560048",
+                            "countryCode": "IN",
+                            "countryName": "India",
+                            "residential": false
+                        },
+                        "arrivalLocation": "PICKUP_LOCATION"
+                    },
+                    {
+                        "timestamp": {
+                            "$numberLong": "1583476076000"
+                        },
+                        "eventType": "OC",
+                        "eventDescription": "Shipment information sent to FedEx",
+                        "address": {
+                            "streetLines": [],
+                            "residential": false
+                        },
+                        "arrivalLocation": "CUSTOMER"
+                    }
+                ]
+            }
+        ]
+    }
+]
